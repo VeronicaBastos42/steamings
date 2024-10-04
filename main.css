@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+header,
+section h2,
+section h3,
+form button {
+    font-family: "Bungee", sans-serif;
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #f87a04 ;
+    color: #ecf0f1;
+    display: flex;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img{
+    height: 30px;
+}
+
+.brands-list li{
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+section{
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #000000;
+}
+
+section p {
+    margin-bottom: 16px;
+}
+
+section .store-front{
+    margin-right: 32px;
+}
+
+.social-links img{
+    height: 24px;
+
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #f87a04;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #cf5f14d7; 
+}
+
+input:focus, textarea:focus {
+    outline-color: #f87a04;
+}
+
+footer{
+    background-color: #f87a04;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
+
+
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: #f5f6fa;
+    text-decoration: none;
+}
+.container1{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.articles article img{
+   /* height: 180px; */
+   width: 100%;
+}
+
+.articles article{
+    width: 30%;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2,
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+color: #fff;
+padding: 8px;
+display: inline-block;
+text-decoration: none;
+font-weight: bold;
+margin-top: 8px;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#netflix {
+    background-color: rgba(1, 12, 9, 0.63);
+}
+
+#netflix .articles article a{
+    background-color: #f30a0a;
+}
+
+#chef, #mani{
+    width: 60%;
+}
+
+#poco {
+    width: 100%;
+    height: 65%;
+}
+.netflix_ico h2{
+    display: inline;
+    position: absolute;
+    margin-left: 16px;
+}
+
+.netflix_ico img {
+    width: 10%;
+}
+
+.netflix_ico {
+    padding: 5px 0;
+}
+
+#primevideo{
+    background-color: #0d7bf8;
+}
+
+section{
+    padding: 16px 0;
+}
+#primevideo .articles article a{
+    background-color: #f7f4ed;
+    color: #000
+}
+.prime_ico h2{
+    display: inline;
+    position: absolute;
+    margin-left: 16px;
+}
+
+.prime_ico img {
+    width: 8%;
+}
+
+.prime_ico {
+    padding: 5px 0;
+}
+
+#globoplay{
+    background-color: #f01b50ec;
+}
+
+#globoplay .articles article a{
+    background-color: #ee8700;
+    color: #000203;
+}
+
+.globo_ico h2{
+    display: inline;
+    position: absolute;
+    margin-left: 16px;
+}
+
+.globo_ico img {
+    width: 10%;
+}
+
+.globo_ico {
+    padding: 5px 0;
+}
+
+#disney{
+    background-color: #4f3df7ec;
+}
+
+#disney .articles article a{
+    background-color: #28047c;
+    color: #fff;
+}
+
+.disney_ico h2{
+    display: inline;
+    position: absolute;
+    margin-left: 16px;
+}
+
+.disney_ico img {
+    width: 10%;
+}
+
+.disney_ico {
+    padding: 5px 0;
+}
+#cori_disney, #banel_disney{
+    width: 60%;
+}
